@@ -77,7 +77,9 @@ edad_flotante=44.5
 
 print('Mi nombre es %s ,mi apellido es %s y mi edad es %d o %f' %(nombre,apellido,edad_entera,edad_flotante)  )  # Añadido para mostrar el uso de formateo de cadenas con %s y %d
 
+###Antes se utilizaba format
 print('Mi nombre es {} , mi apellido es {} y mi edad es {} o {}'.format(nombre, apellido, edad_entera, edad_flotante))  # Añadido para mostrar el uso de formateo de cadenas con .format()
 
-print(f"Mi nombre es {nombre}  mi apellido es {apellido} y mi edad es {edad_entera} {edad_flotante}")
-      
+##"Ahora fstring"
+print(f'Mi nombre es {nombre} , mi apellido es {apellido} y mi edad es {edad_entera} o {edad_flotante}')
+
